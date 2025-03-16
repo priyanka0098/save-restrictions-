@@ -1,1 +1,1 @@
-worker: python -m devgagan
+worker: python - main.py
