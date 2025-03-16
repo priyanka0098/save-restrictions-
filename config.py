@@ -13,13 +13,13 @@ YTUB_COOKIES = """
 # write here yt cookies
 """
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
-MONGO_DB = getenv("MONGO_DB", "")
-LOG_GROUP = getenv("LOG_GROUP", "")
-CHANNEL_ID = int(getenv("CHANNEL_ID", ""))
+API_ID = int(getenv("API_ID", "25637343"))
+API_HASH = getenv("API_HASH", "70fb79a89ec2d30cab05704e817e5be6")
+BOT_TOKEN = getenv("BOT_TOKEN", "7799682099:AAGxNrldfl42hSGqclaOX2RctmgO6E-M9uw")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5390137933").split()))
+MONGO_DB = getenv("MONGO_DB", "mongodb+srv://ellie535091:A8sx0Q3dVNPPku18@cluster0.ry133.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP = getenv("LOG_GROUP", "-1002039915658")
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002386527380"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500"))
 WEBSITE_URL = getenv("WEBSITE_URL", "upshrink.com")
