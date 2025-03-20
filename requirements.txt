@@ -15,5 +15,5 @@ werkzeug==2.2.2
 mutagen
 yt-dlp
 requests
-pyrogram==2.0.106
+pyrogram
 tgcrypto==1.2.5
