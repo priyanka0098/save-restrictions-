@@ -4,6 +4,11 @@
 
 # See LICENSE file in the repository root for full license text.
 
+import asyncio
+import sys
+
+if sys.platform == "linux":
+    asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
 
 
 import asyncio
